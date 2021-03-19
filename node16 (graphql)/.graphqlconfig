@@ -1,0 +1,43 @@
+{
+  "name": "Untitled GraphQL Schema",
+  "schemaPath": "./schema.gql",
+  "extensions": {
+    "endpoints": {
+      "Main": {
+        "url": "http://localhost:3000/",
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": false
+      },
+      "Faculty": {
+        "url": "http://localhost:3000/faculty",
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": false
+      },
+      "Pulpit": {
+        "url": "http://localhost:3000/pulpit",
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": false
+      },
+      "Subject": {
+        "url": "http://localhost:3000/subject",
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": false
+      },
+      "Teacher": {
+        "url": "http://localhost:3000/teacher",
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": false
+      }
+    }
+  }
+}

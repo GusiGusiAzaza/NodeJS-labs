@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Send Mail</title>
+    <style type="text/css">
+    	input{
+    		float: right;
+    	}
+    	#wrap{
+    		width: 300px;
+    		font-size: 20px;
+    	}
+    	div{
+    		margin: 10px;
+    	}
+    </style>
+</head>
+<body>
+	<h1>Send E-Mail</h1>
+	<div id="wrap">
+		<div>
+			<label for="sendFrom">From:</label>
+			<input type="email" id="sendFrom" value="" tabindex="1" />
+		</div>
+		<div>
+			<label for="sendTo">To:</label>
+			<input type="email" id="sendTo" value="" tabindex="2" />
+		</div>
+		<div>
+			<label for="title">Title:</label>
+			<input type="text" id="title" value="" tabindex="3" />
+		</div>
+		<div>
+			<label for="msg">Message:</label>
+			<textarea cols="36" rows="8" id="msg" tabindex="4"></textarea>
+		</div>
+			<input type="button" value="Submit" onclick="Post()" />
+	</div>		
+	<script type="text/javascript">
+		function Post() {
+			fetch('http://localhost:8080/send', {
+				method: 'POST',
+				mode: 'no-cors',
+				headers: {'Content-Type': 'application/json', 'Accept': 'application/json'},
+				body: JSON.stringify({sendFrom: sendFrom.value, sendTo: sendTo.value, title: title.value, msg: msg.value})
+			}).then(response => { return response.json()});
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+body {
+    background: #25192A;
+    color: orange;
+}
+
+a {
+    color: red;
+    font-size: 20px;
+}
+
+a:hover {
+    color: mediumpurple;
+}
+
+.xml {
+    color: orangered;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style type="text/css">
+        body{
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+
+        .bordered{
+            border: 1px black solid;
+            margin: 10px;
+            width: 320px;
+            padding: 10px;
+        }
+
+        input{
+            float: right;
+        }
+    </style>
+</head>
+<body>
+<h3 id="result"></h3>
+<button onclick="Get()">GET LIST</button>
+
+    <div class="bordered">
+        <div>
+            <label>ID:</label>
+            <input type="number" id="ID">
+        </div>
+        <div >
+            <label>Name:</label>
+            <input type="text" id="Name">
+        </div>
+        <div>
+            <label>Date of Birth</label>
+            <input type="date" id="BDay">
+        </div>
+        <div>
+            <button onclick="Post()">ADD Person</button>
+        </div>
+    </div>
+
+    <div class="bordered">
+        <div>
+            <label>ID to delete:</label>
+            <input type="number" id="del">
+        </div>
+        <button onclick="Delete()">Delete person</button>
+    </div>
+
+    <div class="bordered">        
+        <div>
+            <label>ID to edit:</label>
+            <input type="number" id="editID">
+        </div>
+        <div>
+            <label>new ID:</label>
+            <input type="number" id="nID">
+        </div>
+        <div >
+            <label>new Name:</label>
+            <input type="text" id="nName">
+        </div>
+        <div>
+            <label>new Date of Birth</label>
+            <input type="date" id="nBDay">
+        </div>
+        <div>
+            <button onclick="Put()">EDIT</button>
+        </div>
+    </div>
+
+<script type="text/javascript">
+    function Get() {
+        console.log('GET');
+        fetch('http://localhost:8080/api/db', {
+            method: 'GET',
+            mode: 'no-cors',
+            headers: {'Content-Type': 'application/json', 'Accept': 'application/json'}
+        }).then(response => { return response.json();})
+            .then((data) => {
+            console.log('data', data);
+            document.getElementById('result').innerHTML = '';
+            data.forEach(el => document.getElementById('result').innerHTML += (el.id + '.' + el.name + ' ' + el.bday + '<br/>'));
+        })
+    }
+
+    function Post() {
+        console.log('POST');
+        fetch('http://localhost:8080/api/db', {
+            method: 'POST',
+            mode: 'no-cors',
+            headers: {'Content-Type': 'application/json', 'Accept': 'application/json'},
+            body: JSON.stringify({id: ID.value, name: Name.value, bday: BDay.value})
+        }).then(response => { return response.json()})
+            .then(data => console.log('POST.data', data));
+    }
+
+    function Delete() {
+        console.log('DELETE');
+        fetch('http://localhost:8080/api/db', {
+            method: 'DELETE',
+            headers: {'Content-Type': 'application/json', 'Accept': 'application/json'},
+            body: JSON.stringify(del.value)
+        }).then(response => {return response.json()})
+            .then(data => console.log('DELETE.data', data));
+    }
+
+    function Put() {
+        console.log('PUT');
+        fetch('http://localhost:8080/api/db', {
+            method: 'PUT',
+            headers: {'Content-Type': 'application/json', 'Accept': 'application/json'},
+            body: JSON.stringify({editId: editID.value, id: nID.value, name: nName.value, bday: nBDay.value})
+        }).then(response => { return response.json()})
+            .then(data => console.log('POST.data', data));
+    }
+</script>
+</body>
+</html>

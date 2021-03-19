@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="efb94061-4d9e-4a2b-ba7a-6ff5d8165e16" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/4-json/11-4-server.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/4-json/11-4-client.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/6-event/11-6-server.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/6-event/11-6-client.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/1-upload-download/11-1-client.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/5-rpc/11-5-waterfall-client.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/1-upload-download/11-1-server.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/3-ping-pong/11-3-client.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/5-rpc/11-5-client.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/5-rpc/11-5-async-client.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/5-rpc/11-5-server.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1kV631osUgMHAzNCWphls2H1tr9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.4" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.19.5" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../node12" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="C:\main\5SEM\NODEJS\node11\node_modules\eslint" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\main\5SEM\NODEJS\node11\node_modules\prettier" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\main\5SEM\NODEJS\node11\src\3-ping-pong" />
+      <recent name="C:\main\5SEM\NODEJS\node11\src\1-upload-download" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.11-6-client_A.js">
+    <configuration name="11-1-client.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/1-upload-download/11-1-client.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="11-1-server.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="src/1-upload-download/11-1-server.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="11-3-client_1.js" type="NodeJSConfigurationType" application-parameters="1" path-to-js-file="src/3-ping-pong/11-3-client.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="11-3-client_2.js" type="NodeJSConfigurationType" application-parameters="2" path-to-js-file="src/3-ping-pong/11-3-client.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="11-3-server.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/3-ping-pong/11-3-server.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="11-4-client_1.js" type="NodeJSConfigurationType" application-parameters="1st_Client" path-to-js-file="src/4-json/11-4-client.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="11-4-client_2.js" type="NodeJSConfigurationType" application-parameters="2nd_Client" path-to-js-file="src/4-json/11-4-client.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="11-4-server.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="src/4-json/11-4-server.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="11-5-async-client.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="src/5-rpc/11-5-async-client.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="11-5-client.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="src/5-rpc/11-5-client.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="11-5-server.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="src/5-rpc/11-5-server.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="11-5-waterfall-client.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="src/5-rpc/11-5-waterfall-client.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="11-6-client_A.js" type="NodeJSConfigurationType" application-parameters="A" path-to-js-file="src/6-event/11-6-client.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="11-6-client_B.js" type="NodeJSConfigurationType" application-parameters="B" path-to-js-file="src/6-event/11-6-client.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="11-6-client_C.js" type="NodeJSConfigurationType" application-parameters="C" path-to-js-file="src/6-event/11-6-client.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="11-6-server.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="src/6-event/11-6-server.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.11-1-server.js" />
+      <item itemvalue="Node.js.11-1-client.js" />
+      <item itemvalue="Node.js.11-3-server.js" />
+      <item itemvalue="Node.js.11-3-client_1.js" />
+      <item itemvalue="Node.js.11-3-client_2.js" />
+      <item itemvalue="Node.js.11-4-server.js" />
+      <item itemvalue="Node.js.11-4-client_1.js" />
+      <item itemvalue="Node.js.11-4-client_2.js" />
+      <item itemvalue="Node.js.11-5-server.js" />
+      <item itemvalue="Node.js.11-5-client.js" />
+      <item itemvalue="Node.js.11-5-async-client.js" />
+      <item itemvalue="Node.js.11-5-waterfall-client.js" />
+      <item itemvalue="Node.js.11-6-server.js" />
+      <item itemvalue="Node.js.11-6-client_A.js" />
+      <item itemvalue="Node.js.11-6-client_B.js" />
+      <item itemvalue="Node.js.11-6-client_C.js" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="efb94061-4d9e-4a2b-ba7a-6ff5d8165e16" name="Default Changelist" comment="" />
+      <created>1605773208980</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605773208980</updated>
+      <workItem from="1605773210063" duration="12096000" />
+      <workItem from="1605957105555" duration="1229000" />
+      <workItem from="1605958353686" duration="940000" />
+      <workItem from="1605959309737" duration="111000" />
+      <workItem from="1605959429919" duration="89000" />
+      <workItem from="1605959527681" duration="45000" />
+      <workItem from="1605986880287" duration="152000" />
+      <workItem from="1605987043264" duration="1711000" />
+      <workItem from="1605988778258" duration="101000" />
+      <workItem from="1605988887736" duration="394000" />
+      <workItem from="1605989295081" duration="564000" />
+      <workItem from="1605989871236" duration="3447000" />
+      <workItem from="1606046184153" duration="15459000" />
+      <workItem from="1606157997362" duration="617000" />
+      <workItem from="1606213409000" duration="4873000" />
+      <workItem from="1606399747807" duration="134000" />
+      <workItem from="1606401586307" duration="3395000" />
+      <workItem from="1606600358292" duration="17000" />
+      <workItem from="1606651880779" duration="20000" />
+      <workItem from="1606685889313" duration="2329000" />
+      <workItem from="1606749296678" duration="595000" />
+      <workItem from="1606809848345" duration="101000" />
+      <workItem from="1607014912984" duration="596000" />
+      <workItem from="1607059422239" duration="44000" />
+      <workItem from="1608026791575" duration="128000" />
+      <workItem from="1609686041082" duration="4345000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="828" y="432" width="789" height="529" key="#ESLint" timestamp="1605991258184">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="828" y="432" width="789" height="529" key="#ESLint/0.0.1920.1080@0.0.1920.1080" timestamp="1605991258184" />
+    <state x="586" y="218" key="#Inspections" timestamp="1605986938193">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="586" y="218" key="#Inspections/0.0.1920.1080@0.0.1920.1080" timestamp="1605986938193" />
+    <state x="536" y="167" key="#JSHint" timestamp="1605987607259">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="536" y="167" key="#JSHint/0.0.1920.1080@0.0.1920.1080" timestamp="1605987607259" />
+    <state x="414" y="194" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606217129191">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="414" y="194" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1606217129191" />
+    <state x="690" y="319" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1605987705328">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="690" y="319" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.1920.1080@0.0.1920.1080" timestamp="1605987705328" />
+    <state x="718" y="409" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1605959239318">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="718" y="409" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1080@0.0.1920.1080" timestamp="1605959239318" />
+    <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1609686095361">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1609686095361" />
+    <state width="1877" height="289" key="GridCell.Tab.0.bottom" timestamp="1609688147292">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1609688147292" />
+    <state width="1877" height="289" key="GridCell.Tab.0.center" timestamp="1609688147292">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="289" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1609688147292" />
+    <state width="1877" height="289" key="GridCell.Tab.0.left" timestamp="1609688147292">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="289" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1609688147292" />
+    <state width="1877" height="289" key="GridCell.Tab.0.right" timestamp="1609688147292">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="289" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1609688147292" />
+    <state x="461" y="184" key="SettingsEditor" timestamp="1606057866671">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="184" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1606057866671" />
+    <state x="667" y="273" width="585" height="534" key="find.popup" timestamp="1609686122874">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="667" y="273" width="585" height="534" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1609686122874" />
+    <state x="939" y="504" key="jetbrains.nodejs.interpreters-dialog" timestamp="1605988243430">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="939" y="504" key="jetbrains.nodejs.interpreters-dialog/0.0.1920.1080@0.0.1920.1080" timestamp="1605988243430" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1606057858860">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1606057858860" />
+  </component>
+</project>

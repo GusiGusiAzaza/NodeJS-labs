@@ -1,0 +1,25 @@
+{
+  "name": "node16",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-plugin-graphql": "^4.0.0",
+    "graphql": "^15.4.0",
+    "graphql-schema-linter": "^2.0.1",
+    "msnodesqlv8": "^2.0.8",
+    "mssql": "^6.3.0",
+    "prettier": "^2.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}

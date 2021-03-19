@@ -1,0 +1,23 @@
+{
+  "name": "node18",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mssql": "^6.3.1",
+    "prettier": "^2.2.1",
+    "sequelize": "^6.5.0",
+    "sequelize-msnodesqlv8": "^0.2.6-beta.8"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}

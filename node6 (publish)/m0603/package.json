@@ -1,0 +1,14 @@
+{
+  "name": "m0603m",
+  "version": "1.0.1",
+  "description": "",
+  "main": "m0603m.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sendmail": "^1.6.1"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "node3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "3-1node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

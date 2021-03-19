@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1a0dcaab-04aa-4f8c-bc71-8bd963302bcd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hT5EN3Ik3gZqNnxII3Qiir9KsR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="eslint.code.style.apply.dismiss" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.4" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.12.68" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../node10" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="C:\main\5SEM\NODEJS\node9\node_modules\eslint" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\main\5SEM\NODEJS\node9\node_modules\prettier" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\main\5SEM\NODEJS\node9\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\main\5SEM\NODEJS\node9" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.9-4.js">
+    <configuration name="9-1.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="src/9-1.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="9-2.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="src/9-2.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="9-3.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="src/9-3.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="9-4.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="src/9-4.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="9-5.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="src/9-5.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="9-6.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="src/9-6.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="9-7.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="src/9-7.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="9-8.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="src/9-8.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="server.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="src/server.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.9-1.js" />
+      <item itemvalue="Node.js.9-2.js" />
+      <item itemvalue="Node.js.9-3.js" />
+      <item itemvalue="Node.js.9-4.js" />
+      <item itemvalue="Node.js.9-5.js" />
+      <item itemvalue="Node.js.9-6.js" />
+      <item itemvalue="Node.js.9-7.js" />
+      <item itemvalue="Node.js.9-8.js" />
+      <item itemvalue="Node.js.server.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.9-2.js" />
+        <item itemvalue="Node.js.9-1.js" />
+        <item itemvalue="Node.js.9-7.js" />
+        <item itemvalue="Node.js.9-6.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a0dcaab-04aa-4f8c-bc71-8bd963302bcd" name="Default Changelist" comment="" />
+      <created>1600022129163</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600022129163</updated>
+      <workItem from="1600022130560" duration="19532000" />
+      <workItem from="1600150346580" duration="281000" />
+      <workItem from="1600151316002" duration="1148000" />
+      <workItem from="1600437736508" duration="27000" />
+      <workItem from="1603129606650" duration="53000" />
+      <workItem from="1604343469354" duration="3861000" />
+      <workItem from="1604602770053" duration="4809000" />
+      <workItem from="1604646293782" duration="4119000" />
+      <workItem from="1605189423066" duration="2007000" />
+      <workItem from="1605214969731" duration="4851000" />
+      <workItem from="1605249189311" duration="6107000" />
+      <workItem from="1605448017342" duration="13000" />
+      <workItem from="1605553139945" duration="3016000" />
+      <workItem from="1605600706831" duration="3693000" />
+      <workItem from="1605773177731" duration="18000" />
+      <workItem from="1609674913083" duration="4843000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="828" y="432" width="636" height="526" key="#ESLint" timestamp="1604346496721">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="828" y="432" width="636" height="526" key="#ESLint/0.0.1920.1080@0.0.1920.1080" timestamp="1604346496721" />
+    <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604603251780">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1604603251780" />
+    <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1609685728790">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1609685728790" />
+    <state width="1877" height="216" key="GridCell.Tab.0.bottom" timestamp="1609676641646">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1609676641646" />
+    <state width="1877" height="216" key="GridCell.Tab.0.center" timestamp="1609676641646">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="216" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1609676641646" />
+    <state width="1877" height="216" key="GridCell.Tab.0.left" timestamp="1609676641646">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="216" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1609676641646" />
+    <state width="1877" height="216" key="GridCell.Tab.0.right" timestamp="1609676641646">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="216" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1609676641646" />
+    <state x="461" y="184" key="SettingsEditor" timestamp="1604345685162">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="184" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1604345685162" />
+    <state x="738" y="244" width="585" height="801" key="find.popup" timestamp="1604343665048">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="738" y="244" width="585" height="801" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1604343665048" />
+    <state x="486" y="73" width="945" height="1006" key="search.everywhere.popup" timestamp="1605217622920">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="486" y="73" width="945" height="1006" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1605217622920" />
+  </component>
+</project>
