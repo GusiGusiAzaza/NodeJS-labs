@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="NodeJs1414@localhost">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.20">
+    <root id="1">
+      <ServerVersion>15.0.2000</ServerVersion>
+      <PermissionsCheckSum>49078891350</PermissionsCheckSum>
+      <Grants>0|root||1|connect sql|G
+0|root||2|view any database|G
+0|root||101|view any definition|G
+0|root||102|authenticate server|G
+0|root||102|view any definition|G
+0|root||102|view server state|G
+0|root||103|authenticate server|G
+0|root||105|control server|G
+0|root||105|view any definition|G
+0|root||106|view any definition|G
+0|root||256|connect sql|G
+0|root||257|connect sql|G
+0|root||257|view any definition|G
+0|root||257|view server state|G
+0|root||258|connect sql|G
+0|root||259|connect sql|G
+0|root||260|connect sql|G
+0|root||261|connect sql|G
+0|root||262|connect sql|G
+0|root||263|alter any availability group|G
+0|root||263|connect sql|G
+0|root||263|view server state|G
+0|root||264|connect sql|G
+0|root||265|alter any event session|G
+0|root||265|connect any database|G
+0|root||265|connect sql|G
+0|root||265|view any definition|G
+0|root||265|view server state|G
+0|root||266|connect sql|G
+0|root||268|connect sql|G
+0|root||270|connect sql|G
+2|||2|connect|G
+3|||2|connect|G
+4|||2|connect|G
+5|||2|connect|G
+</Grants>
+    </root>
+    <database id="2" parent="1" name="BlueFoxDB">
+      <ObjectId>5</ObjectId>
+      <Collation>Cyrillic_General_CI_AS</Collation>
+    </database>
+    <database id="3" parent="1" name="BlueFoxMSSQL">
+      <ObjectId>9</ObjectId>
+      <Collation>Cyrillic_General_CI_AS</Collation>
+    </database>
+    <database id="4" parent="1" name="BlueFoxMSSQLNodeJS">
+      <ObjectId>10</ObjectId>
+      <Collation>Cyrillic_General_CI_AS</Collation>
+    </database>
+    <database id="5" parent="1" name="NodeJs14">
+      <ObjectId>6</ObjectId>
+      <Collation>Cyrillic_General_CI_AS</Collation>
+    </database>
+    <database id="6" parent="1" name="NodeJs1414">
+      <ObjectId>8</ObjectId>
+      <PermissionsCheckSum>5314273712</PermissionsCheckSum>
+      <Grants>8|database||0|view any column encryption key definition|G
+8|database||0|view any column master key definition|G
+8|database||1|connect|G
+8|database||5|connect|G
+8|database||6|connect|G
+</Grants>
+      <Current>1</Current>
+      <Collation>Cyrillic_General_CI_AS</Collation>
+      <Fingerprint>8.44184/7DF47285-C7ED-433A-ABBA-F523BCE7DA43@DESKTOP-V27P9RQ</Fingerprint>
+    </database>
+    <database id="7" parent="1" name="RIS46_1">
+      <ObjectId>12</ObjectId>
+      <Collation>Cyrillic_General_CI_AS</Collation>
+    </database>
+    <database id="8" parent="1" name="RIS46_2">
+      <ObjectId>13</ObjectId>
+      <Collation>Cyrillic_General_CI_AS</Collation>
+    </database>
+    <database id="9" parent="1" name="RIS46_main">
+      <ObjectId>11</ObjectId>
+      <Collation>Cyrillic_General_CI_AS</Collation>
+    </database>
+    <database id="10" parent="1" name="RestaurantApp">
+      <ObjectId>7</ObjectId>
+      <Collation>Cyrillic_General_CI_AS</Collation>
+    </database>
+    <database id="11" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>Cyrillic_General_CI_AS</Collation>
+    </database>
+    <database id="12" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>Cyrillic_General_CI_AS</Collation>
+    </database>
+    <database id="13" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>Cyrillic_General_CI_AS</Collation>
+    </database>
+    <database id="14" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>Cyrillic_General_CI_AS</Collation>
+    </database>
+    <login id="15" parent="1" name="sa">
+      <ObjectId>1</ObjectId>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="16" parent="1" name="public">
+      <ObjectId>2</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="17" parent="1" name="sysadmin">
+      <ObjectId>3</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="18" parent="1" name="securityadmin">
+      <ObjectId>4</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="19" parent="1" name="serveradmin">
+      <ObjectId>5</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="20" parent="1" name="setupadmin">
+      <ObjectId>6</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="21" parent="1" name="processadmin">
+      <ObjectId>7</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="22" parent="1" name="diskadmin">
+      <ObjectId>8</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="23" parent="1" name="dbcreator">
+      <ObjectId>9</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="24" parent="1" name="bulkadmin">
+      <ObjectId>10</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="25" parent="1" name="##MS_SQLResourceSigningCertificate##">
+      <ObjectId>101</ObjectId>
+      <Type>certificate-mapped-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="26" parent="1" name="##MS_SQLReplicationSigningCertificate##">
+      <ObjectId>102</ObjectId>
+      <Type>certificate-mapped-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="27" parent="1" name="##MS_SQLAuthenticatorCertificate##">
+      <ObjectId>103</ObjectId>
+      <Type>certificate-mapped-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="28" parent="1" name="##MS_PolicySigningCertificate##">
+      <ObjectId>105</ObjectId>
+      <Type>certificate-mapped-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="29" parent="1" name="##MS_SmoExtendedSigningCertificate##">
+      <ObjectId>106</ObjectId>
+      <Type>certificate-mapped-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="30" parent="1" name="##MS_PolicyEventProcessingLogin##">
+      <ObjectId>256</ObjectId>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="31" parent="1" name="##MS_PolicyTsqlExecutionLogin##">
+      <ObjectId>257</ObjectId>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="32" parent="1" name="##MS_AgentSigningCertificate##">
+      <ObjectId>258</ObjectId>
+      <Type>certificate-mapped-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="33" parent="1" name="DESKTOP-V27P9RQ\harev">
+      <ObjectId>259</ObjectId>
+      <Type>windows-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="34" parent="1" name="NT SERVICE\SQLWriter">
+      <ObjectId>260</ObjectId>
+      <Type>windows-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="35" parent="1" name="NT SERVICE\Winmgmt">
+      <ObjectId>261</ObjectId>
+      <Type>windows-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="36" parent="1" name="NT Service\MSSQLSERVER">
+      <ObjectId>262</ObjectId>
+      <Type>windows-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="37" parent="1" name="NT AUTHORITY\СИСТЕМА">
+      <ObjectId>263</ObjectId>
+      <Type>windows-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="38" parent="1" name="NT SERVICE\SQLSERVERAGENT">
+      <ObjectId>264</ObjectId>
+      <Type>windows-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="39" parent="1" name="NT SERVICE\SQLTELEMETRY">
+      <ObjectId>265</ObjectId>
+      <Type>windows-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="40" parent="1" name="Restaurant_User">
+      <ObjectId>266</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="41" parent="1" name="RestaurantUser">
+      <ObjectId>268</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="42" parent="1" name="gusi">
+      <ObjectId>270</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <schema id="43" parent="6" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="44" parent="6" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="45" parent="6" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="46" parent="6" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="47" parent="6" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="48" parent="6" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="49" parent="6" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="50" parent="6" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="51" parent="6" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="52" parent="6" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="53" parent="6" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2021-05-31.03:26:38.743</IntrospectionTimestamp>
+      <Current>1</Current>
+    </schema>
+    <schema id="54" parent="6" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="55" parent="6" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <role id="56" parent="6" name="public">
+      <ObjectId>0</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="57" parent="6" name="dbo">
+      <ObjectId>1</ObjectId>
+      <Type>windows-user</Type>
+      <DefaultSchema>dbo</DefaultSchema>
+      <AuthType>windows</AuthType>
+    </role>
+    <role id="58" parent="6" name="guest">
+      <ObjectId>2</ObjectId>
+      <DefaultSchema>guest</DefaultSchema>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="59" parent="6" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="60" parent="6" name="sys">
+      <ObjectId>4</ObjectId>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="61" parent="6" name="gusigusi">
+      <ObjectId>5</ObjectId>
+      <DefaultSchema>dbo</DefaultSchema>
+      <AuthType>instance</AuthType>
+    </role>
+    <role id="62" parent="6" name="gusi">
+      <ObjectId>6</ObjectId>
+      <DefaultSchema>dbo</DefaultSchema>
+      <AuthType>instance</AuthType>
+    </role>
+    <role id="63" parent="6" name="db_owner">
+      <ObjectId>16384</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="64" parent="6" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="65" parent="6" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="66" parent="6" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="67" parent="6" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="68" parent="6" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="69" parent="6" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="70" parent="6" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="71" parent="6" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <table id="72" parent="53" name="AUDITORIUM">
+      <ObjectId>1093578934</ObjectId>
+      <CreatedTimestamp>2020-12-20.19:33:54.167</CreatedTimestamp>
+      <ModifiedTimestamp>2020-12-20.19:33:54.167</ModifiedTimestamp>
+    </table>
+    <table id="73" parent="53" name="AUDITORIUM_TYPE">
+      <ObjectId>1061578820</ObjectId>
+      <CreatedTimestamp>2020-12-20.19:33:54.163</CreatedTimestamp>
+      <ModifiedTimestamp>2020-12-20.19:33:54.167</ModifiedTimestamp>
+    </table>
+    <table id="74" parent="53" name="FACULTY">
+      <ObjectId>885578193</ObjectId>
+      <CreatedTimestamp>2020-12-20.19:33:54.147</CreatedTimestamp>
+      <ModifiedTimestamp>2020-12-20.19:33:54.150</ModifiedTimestamp>
+    </table>
+    <table id="75" parent="53" name="Lab5">
+      <ObjectId>1205579333</ObjectId>
+      <CreatedTimestamp>2021-04-05.02:14:12.183</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-05.02:14:12.183</ModifiedTimestamp>
+    </table>
+    <table id="76" parent="53" name="PULPIT">
+      <ObjectId>917578307</ObjectId>
+      <CreatedTimestamp>2020-12-20.19:33:54.150</CreatedTimestamp>
+      <ModifiedTimestamp>2020-12-20.19:33:54.160</ModifiedTimestamp>
+    </table>
+    <table id="77" parent="53" name="Report">
+      <ObjectId>1845581613</ObjectId>
+      <CreatedTimestamp>2021-05-13.02:49:45.950</CreatedTimestamp>
+      <ModifiedTimestamp>2021-05-13.02:49:45.950</ModifiedTimestamp>
+    </table>
+    <table id="78" parent="53" name="SUBJECT">
+      <ObjectId>1013578649</ObjectId>
+      <CreatedTimestamp>2020-12-20.19:33:54.160</CreatedTimestamp>
+      <ModifiedTimestamp>2020-12-20.19:33:54.160</ModifiedTimestamp>
+    </table>
+    <table id="79" parent="53" name="TEACHER">
+      <ObjectId>965578478</ObjectId>
+      <CreatedTimestamp>2020-12-20.19:33:54.153</CreatedTimestamp>
+      <ModifiedTimestamp>2020-12-20.19:33:54.153</ModifiedTimestamp>
+    </table>
+    <table id="80" parent="53" name="commits">
+      <ObjectId>578101100</ObjectId>
+      <CreatedTimestamp>2021-05-31.03:26:38.607</CreatedTimestamp>
+      <ModifiedTimestamp>2021-05-31.03:26:38.607</ModifiedTimestamp>
+    </table>
+    <table id="81" parent="53" name="repos">
+      <ObjectId>514100872</ObjectId>
+      <CreatedTimestamp>2021-05-31.03:26:38.600</CreatedTimestamp>
+      <ModifiedTimestamp>2021-05-31.03:26:38.610</ModifiedTimestamp>
+    </table>
+    <table id="82" parent="53" name="users">
+      <ObjectId>482100758</ObjectId>
+      <CreatedTimestamp>2021-05-31.03:26:38.593</CreatedTimestamp>
+      <ModifiedTimestamp>2021-05-31.03:26:38.603</ModifiedTimestamp>
+    </table>
+    <routine id="83" parent="53" name="AddDocherRoot">
+      <ObjectId>1253579504</ObjectId>
+      <SourceTextLength>344</SourceTextLength>
+      <CreatedTimestamp>2021-04-05.02:19:05.280</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-05.02:19:05.280</ModifiedTimestamp>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="84" parent="53" name="MovRoot">
+      <ObjectId>1269579561</ObjectId>
+      <SourceTextLength>526</SourceTextLength>
+      <CreatedTimestamp>2021-04-05.02:19:25.360</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-05.02:19:25.360</ModifiedTimestamp>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="85" parent="53" name="SelectRoot">
+      <ObjectId>1237579447</ObjectId>
+      <SourceTextLength>131</SourceTextLength>
+      <CreatedTimestamp>2021-04-05.02:18:53.420</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-05.02:18:53.420</ModifiedTimestamp>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="86" parent="53" name="generateXML">
+      <ObjectId>1877581727</ObjectId>
+      <SourceTextLength>269</SourceTextLength>
+      <CreatedTimestamp>2021-05-13.02:49:59.537</CreatedTimestamp>
+      <ModifiedTimestamp>2021-05-13.02:49:59.537</ModifiedTimestamp>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <column id="87" parent="72" name="AUDITORIUM">
+      <Position>1</Position>
+      <DataType>char(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="88" parent="72" name="AUDITORIUM_NAME">
+      <Position>2</Position>
+      <DataType>nvarchar(200 char)|0s</DataType>
+    </column>
+    <column id="89" parent="72" name="AUDITORIUM_CAPACITY">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="90" parent="72" name="AUDITORIUM_TYPE">
+      <Position>4</Position>
+      <DataType>char(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="91" parent="72" name="PK__AUDITORI__53726010936BB985">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>AUDITORIUM</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="92" parent="72" name="PK__AUDITORI__53726010936BB985">
+      <ObjectId>1109578991</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-12-20.19:33:54.167</CreatedTimestamp>
+      <ModifiedTimestamp>2020-12-20.19:33:54.167</ModifiedTimestamp>
+      <ColNames>AUDITORIUM</ColNames>
+      <UnderlyingIndexName>PK__AUDITORI__53726010936BB985</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="93" parent="72" name="FK__AUDITORIU__AUDIT__4316F928">
+      <ObjectId>1125579048</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-12-20.19:33:54.167</CreatedTimestamp>
+      <ModifiedTimestamp>2020-12-20.19:33:54.167</ModifiedTimestamp>
+      <ColNames>AUDITORIUM_TYPE</ColNames>
+      <RefTableId>1061578820</RefTableId>
+      <RefTableName>AUDITORIUM_TYPE</RefTableName>
+      <RefKeyName>AUDITORIUM_TYPE_PK</RefKeyName>
+      <RefColNames>AUDITORIUM_TYPE</RefColNames>
+    </foreign-key>
+    <column id="94" parent="73" name="AUDITORIUM_TYPE">
+      <Position>1</Position>
+      <DataType>char(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="95" parent="73" name="AUDITORIUM_TYPENAME">
+      <Position>2</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="96" parent="73" name="AUDITORIUM_TYPE_PK">
+      <Position>1</Position>
+      <ColNames>AUDITORIUM_TYPE</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="97" parent="73" name="AUDITORIUM_TYPE_PK">
+      <ObjectId>1077578877</ObjectId>
+      <CreatedTimestamp>2020-12-20.19:33:54.163</CreatedTimestamp>
+      <ModifiedTimestamp>2020-12-20.19:33:54.163</ModifiedTimestamp>
+      <ColNames>AUDITORIUM_TYPE</ColNames>
+      <UnderlyingIndexName>AUDITORIUM_TYPE_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="98" parent="74" name="FACULTY">
+      <Position>1</Position>
+      <DataType>nvarchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="99" parent="74" name="FACULTY_NAME">
+      <Position>2</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <index id="100" parent="74" name="PK_FACULTY">
+      <Position>1</Position>
+      <ColNames>FACULTY</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="101" parent="74" name="PK_FACULTY">
+      <ObjectId>901578250</ObjectId>
+      <CreatedTimestamp>2020-12-20.19:33:54.147</CreatedTimestamp>
+      <ModifiedTimestamp>2020-12-20.19:33:54.147</ModifiedTimestamp>
+      <ColNames>FACULTY</ColNames>
+      <UnderlyingIndexName>PK_FACULTY</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="102" parent="75" name="hid">
+      <Position>1</Position>
+      <DataType>hierarchyid|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="103" parent="75" name="userId">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="104" parent="75" name="userName">
+      <Position>3</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="105" parent="75" name="PK_Lab5">
+      <Position>1</Position>
+      <ColNames>hid</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="106" parent="75" name="PK_Lab5">
+      <ObjectId>1221579390</ObjectId>
+      <CreatedTimestamp>2021-04-05.02:14:12.190</CreatedTimestamp>
+      <ModifiedTimestamp>2021-04-05.02:14:12.190</ModifiedTimestamp>
+      <ColNames>hid</ColNames>
+      <UnderlyingIndexName>PK_Lab5</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="107" parent="76" name="PULPIT">
+      <Position>1</Position>
+      <DataType>nvarchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="108" parent="76" name="PULPIT_NAME">
+      <Position>2</Position>
+      <DataType>nvarchar(100 char)|0s</DataType>
+    </column>
+    <column id="109" parent="76" name="FACULTY">
+      <Position>3</Position>
+      <DataType>nvarchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="110" parent="76" name="PK_PULPIT">
+      <Position>1</Position>
+      <ColNames>PULPIT</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="111" parent="76" name="PK_PULPIT">
+      <ObjectId>933578364</ObjectId>
+      <CreatedTimestamp>2020-12-20.19:33:54.150</CreatedTimestamp>
+      <ModifiedTimestamp>2020-12-20.19:33:54.150</ModifiedTimestamp>
+      <ColNames>PULPIT</ColNames>
+      <UnderlyingIndexName>PK_PULPIT</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="112" parent="76" name="FK_PULPIT_FACULTY">
+      <ObjectId>949578421</ObjectId>
+      <CreatedTimestamp>2020-12-20.19:33:54.150</CreatedTimestamp>
+      <ModifiedTimestamp>2020-12-20.19:33:54.150</ModifiedTimestamp>
+      <ColNames>FACULTY</ColNames>
+      <RefTableId>885578193</RefTableId>
+      <RefTableName>FACULTY</RefTableName>
+      <RefKeyName>PK_FACULTY</RefKeyName>
+      <RefColNames>FACULTY</RefColNames>
+    </foreign-key>
+    <column id="113" parent="77" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="114" parent="77" name="xml_column">
+      <Position>2</Position>
+      <DataType>xml|0s</DataType>
+    </column>
+    <index id="115" parent="77" name="PK__Report__3213E83FD58DD470">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="116" parent="77" name="PK__Report__3213E83FD58DD470">
+      <ObjectId>1861581670</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-05-13.02:49:45.960</CreatedTimestamp>
+      <ModifiedTimestamp>2021-05-13.02:49:45.960</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__Report__3213E83FD58DD470</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="117" parent="78" name="SUBJECT">
+      <Position>1</Position>
+      <DataType>nvarchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="118" parent="78" name="SUBJECT_NAME">
+      <Position>2</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="119" parent="78" name="PULPIT">
+      <Position>3</Position>
+      <DataType>nvarchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="120" parent="78" name="PK_SUBJECT">
+      <Position>1</Position>
+      <ColNames>SUBJECT</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="121" parent="78" name="PK_SUBJECT">
+      <ObjectId>1029578706</ObjectId>
+      <CreatedTimestamp>2020-12-20.19:33:54.160</CreatedTimestamp>
+      <ModifiedTimestamp>2020-12-20.19:33:54.160</ModifiedTimestamp>
+      <ColNames>SUBJECT</ColNames>
+      <UnderlyingIndexName>PK_SUBJECT</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="122" parent="78" name="FK_SUBJECT_PULPIT">
+      <ObjectId>1045578763</ObjectId>
+      <CreatedTimestamp>2020-12-20.19:33:54.160</CreatedTimestamp>
+      <ModifiedTimestamp>2020-12-20.19:33:54.160</ModifiedTimestamp>
+      <ColNames>PULPIT</ColNames>
+      <RefTableId>917578307</RefTableId>
+      <RefTableName>PULPIT</RefTableName>
+      <RefKeyName>PK_PULPIT</RefKeyName>
+      <RefColNames>PULPIT</RefColNames>
+    </foreign-key>
+    <column id="123" parent="79" name="TEACHER">
+      <Position>1</Position>
+      <DataType>nvarchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="124" parent="79" name="TEACHER_NAME">
+      <Position>2</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="125" parent="79" name="PULPIT">
+      <Position>3</Position>
+      <DataType>nvarchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="126" parent="79" name="PK_TEACHER">
+      <Position>1</Position>
+      <ColNames>TEACHER</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="127" parent="79" name="PK_TEACHER">
+      <ObjectId>981578535</ObjectId>
+      <CreatedTimestamp>2020-12-20.19:33:54.153</CreatedTimestamp>
+      <ModifiedTimestamp>2020-12-20.19:33:54.153</ModifiedTimestamp>
+      <ColNames>TEACHER</ColNames>
+      <UnderlyingIndexName>PK_TEACHER</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="128" parent="79" name="FK_TEACHER_PULPIT">
+      <ObjectId>997578592</ObjectId>
+      <CreatedTimestamp>2020-12-20.19:33:54.153</CreatedTimestamp>
+      <ModifiedTimestamp>2020-12-20.19:33:54.153</ModifiedTimestamp>
+      <ColNames>PULPIT</ColNames>
+      <RefTableId>917578307</RefTableId>
+      <RefTableName>PULPIT</RefTableName>
+      <RefKeyName>PK_PULPIT</RefKeyName>
+      <RefColNames>PULPIT</RefColNames>
+    </foreign-key>
+    <column id="129" parent="80" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="130" parent="80" name="repoId">
+      <Position>2</Position>
+      <DefaultConstraintName>DF__commits__repoId__245D67DE</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="131" parent="80" name="message">
+      <Position>3</Position>
+      <DefaultConstraintName>DF__commits__message__25518C17</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <index id="132" parent="80" name="PK__commits__3213E83FCE7E5DBE">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="133" parent="80" name="PK__commits__3213E83FCE7E5DBE">
+      <ObjectId>594101157</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-05-31.03:26:38.610</CreatedTimestamp>
+      <ModifiedTimestamp>2021-05-31.03:26:38.610</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__commits__3213E83FCE7E5DBE</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="134" parent="80" name="fk_commits_repos">
+      <ObjectId>642101328</ObjectId>
+      <CreatedTimestamp>2021-05-31.03:26:38.610</CreatedTimestamp>
+      <ModifiedTimestamp>2021-05-31.03:26:38.610</ModifiedTimestamp>
+      <ColNames>repoId</ColNames>
+      <RefTableId>514100872</RefTableId>
+      <RefTableName>repos</RefTableName>
+      <RefKeyName>PK__repos__3213E83F438DE0CF</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <default id="135" parent="80" name="DF__commits__repoId__245D67DE">
+      <ObjectId>610101214</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-05-31.03:26:38.610</ModifiedTimestamp>
+      <ColNames>repoId</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="136" parent="80" name="DF__commits__message__25518C17">
+      <ObjectId>626101271</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-05-31.03:26:38.610</ModifiedTimestamp>
+      <ColNames>message</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <column id="137" parent="81" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="138" parent="81" name="name">
+      <Position>2</Position>
+      <DefaultConstraintName>DF__repos__name__208CD6FA</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="139" parent="81" name="authorId">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="140" parent="81" name="PK__repos__3213E83F438DE0CF">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="141" parent="81" name="PK__repos__3213E83F438DE0CF">
+      <ObjectId>530100929</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-05-31.03:26:38.603</CreatedTimestamp>
+      <ModifiedTimestamp>2021-05-31.03:26:38.603</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__repos__3213E83F438DE0CF</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="142" parent="81" name="fk_repos_users">
+      <ObjectId>562101043</ObjectId>
+      <CreatedTimestamp>2021-05-31.03:26:38.603</CreatedTimestamp>
+      <ModifiedTimestamp>2021-05-31.03:26:38.603</ModifiedTimestamp>
+      <ColNames>authorId</ColNames>
+      <RefTableId>482100758</RefTableId>
+      <RefTableName>users</RefTableName>
+      <RefKeyName>PK__users__3213E83F4B68F749</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <default id="143" parent="81" name="DF__repos__name__208CD6FA">
+      <ObjectId>546100986</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2021-05-31.03:26:38.603</ModifiedTimestamp>
+      <ColNames>name</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <column id="144" parent="82" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="145" parent="82" name="username">
+      <Position>2</Position>
+      <DataType>varchar(16 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="146" parent="82" name="email">
+      <Position>3</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="147" parent="82" name="password">
+      <Position>4</Position>
+      <DataType>varchar(32 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="148" parent="82" name="role">
+      <Position>5</Position>
+      <DataType>varchar(5 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="149" parent="82" name="PK__users__3213E83F4B68F749">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="150" parent="82" name="PK__users__3213E83F4B68F749">
+      <ObjectId>498100815</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-05-31.03:26:38.597</CreatedTimestamp>
+      <ModifiedTimestamp>2021-05-31.03:26:38.597</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK__users__3213E83F4B68F749</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <argument id="151" parent="83" name="@UserId">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="152" parent="83" name="@UserName">
+      <Position>2</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </argument>
+    <argument id="153" parent="84" name="@old_uzel">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="154" parent="84" name="@new_uzel">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="155" parent="85" name="@level">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+  </database-model>
+</dataSource>
